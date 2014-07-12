@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en" ng-app="sharinglibrary">
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -182,15 +180,18 @@
                         </li>
 
                         <li>
-                            <a href="index.html"><i class="fa fa-th-large fa-fw"></i> Your Library</a>
+                            <a href="#/dashboard"><i class="fa fa-th-large fa-fw"></i> Your Library</a>
                         </li>
                         <li>
-                            <a href="index.html"><i class="fa fa-book fa-fw"></i> Browse</a>
+                            <a href="#/checkout"><i class="fa fa-share-square fa-fw"></i> Checkout</a>
+                        </li>
+                        <li>
+                            <a href="#/dashboard"><i class="fa fa-book fa-fw"></i> Browse</a>
+                        </li>
+                        <li>
+                            <a href="#/dashboard"><i class="fa fa-arrows fa-fw"></i> Around You</a>
                         </li>
 
-                        <li>
-                            <a href="index.html"><i class="fa fa-arrows fa-fw"></i> Around You</a>
-                        </li>
                     </ul>
                     <!-- /#side-menu -->
                 </div>
@@ -202,7 +203,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Blank</h1>
+                    <div ui-view></div>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -217,6 +218,10 @@
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controller.js"></script>
 
     <!-- Page-Level Plugin Scripts - Blank -->
 
