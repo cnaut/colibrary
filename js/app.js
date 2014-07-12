@@ -1,5 +1,7 @@
 angular.module('sharinglibrary', [
   'ui.router',
+  'ui.bootstrap',
+  'google-maps',
   'LibraryService',
   'controllers',
 ])

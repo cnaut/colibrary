@@ -14,12 +14,33 @@ angular.module('controllers', [])
   });
 
   $scope.checkout = function(item) {
-    LibraryService.addToCart(item)
-    $location.path("/checkout")
+    LibraryService.addToCart(item);
+    $location.path("/checkout");
   };
 })
 
-.controller('CheckoutCtrl', function($scope, LibraryService) {
+.controller('CheckoutCtrl', function($scope, $location, LibraryService) {
   $scope.cart = LibraryService.getCart();
-  console.log($scope.cart);
+  $scope.opened = true;
+  if($scope.cart.length === 0 ) {
+    $location.path("/");
+    return;
+  }
+
+  $scope.map = {
+    center: {
+        latitude: $scope.cart[0].user.pickupSpotLat,
+        longitude: $scope.cart[0].user.pickupSpotLong
+    },
+    zoom: 8
+  };
+  $scope.eventDate = new Date();
+  $scope.eventTime = new Date();
+
+  $scope.openDP = function($event) {
+    $event.preventDefault();
+    $event.stopPropagation();
+
+    $scope.opened = true;
+  };
 });
