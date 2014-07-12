@@ -2,12 +2,13 @@ angular.module('LibraryService', [])
 .factory('LibraryService', function($http, $filter) {
   var cart = [];
   var users = [
-  	{ id: 1, name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
-  	{ id: 2, name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
-  	{ id: 3, name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
-	{ id: 4, name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
- 	{ id: 5, name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
-  ]
+  	{ id: 1, age: chance.age(), city: chance.city(), state: chance.state(), name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
+  	{ id: 2, age: chance.age(), city: chance.city(), state: chance.state(), name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
+  	{ id: 3, age: chance.age(), city: chance.city(), state: chance.state(), name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
+	{ id: 4, age: chance.age(), city: chance.city(), state: chance.state(), name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
+ 	{ id: 5, age: chance.age(), city: chance.city(), state: chance.state(), name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() },
+  	{ id: 6, age: chance.age(), city: chance.city(), state: chance.state(), name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() }
+  ];
 
   var items = [
     { image: "books.jpg", title: "A bunch of books", user: users[0] },
@@ -39,13 +40,13 @@ angular.module('LibraryService', [])
   }
 
   var getItems = function(id) {
-  	return _.find(items, function(item) { return item.user.id == id } );
+  	if(!id) { return items; }
+  	return _.filter(items, function(item) { return item.user.id == id } );
   }
 
   return {
   	addToCart: addToCart,
   	getCart: function() { return cart },
-  	getItems: function() { return items },
   	getLibrary: function() { return library },
   	getUser: getUser,
   	getItems: getItems,
