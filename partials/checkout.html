@@ -8,6 +8,18 @@
 	    <p><b>Item:</b> {{ item.title }}</p> 
 		<p><b>Owner:</b> <a href="#/profile/{{ item.user.id }}">{{ item.user.name }}</a></p>
 		<p><b>Pickup Location:</b> {{ item.user.pickupSpot }}</p>
+		<p>Tip Amount:
+		<span class="input-group">
+		  <span class="input-group-addon">$</span>
+		  <input type="number" class="form-control" placeholder="1">
+		</span>
+		</p>
+		<p>Donation Amount:
+		<span class="input-group">
+		  <span class="input-group-addon">$</span>
+		  <input type="number" class="form-control" placeholder="1">
+		</span>
+		</p>
 	</div>
   </div>
 </div>
