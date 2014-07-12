@@ -20,8 +20,17 @@ angular.module('controllers', [])
 })
 
 
-.controller('LibraryCtrl', function($scope, $location, LibraryService) {
+.controller('LibraryCtrl', function($scope, $location, $modal, LibraryService) {
   $scope.library = LibraryService.getLibrary();
+
+  $scope.openAddItemModal = function () {
+    var modalInstance = $modal.open({
+      templateUrl: 'additem.html',
+      controller: ModalInstanceCtrl,
+      resolve: {
+      }
+    });
+  };
 })
 
 .controller('ProfileCtrl', function($scope, $stateParams, LibraryService) {
@@ -60,3 +69,14 @@ angular.module('controllers', [])
     $scope.requested = true;
   }
 });
+
+var ModalInstanceCtrl = function ($scope, $modalInstance, LibraryService) {
+  $scope.ok = function () {
+    $modalInstance.close();
+    LibraryService.addItem($scope.title, $scope.image)
+  };
+
+  $scope.cancel = function () {
+    $modalInstance.dismiss('cancel');
+  };
+};

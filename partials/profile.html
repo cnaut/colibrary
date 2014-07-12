@@ -1,13 +1,15 @@
 <div class="row">
 	<div class="col-md-12">
-		<h2>{{ user.name }} <small><rating ng-model="user.rating" max="5" state-on="'glyphicon-star'" state-off="'glyphicon-star-empty'"></rating></small></h2>
-		<p>{{ user.age}} - {{ user.city }}, {{ user.state }}
+		<h2>{{ user.name }} <small><rating ng-model="user.rating" max="5" state-on="'glyphicon-star'" state-off="'glyphicon-star-empty'"></rating></small></h2>			
 		<div class="row">
 			<ul class="socialicons color">
 				<li><a href="" class="facebook" target="_blank">facebook</a></li>
 				<li><a href="" class="twitter" target="_blank">twitter</a></li>
 			</ul>
 		</div>
+		<div><b>Age:</b> {{ user.age}}</div>
+		<div><b>Location:</b> {{ user.city }}, {{ user.state }}</div>
+
 
 		<div class="row">
 			<div class="col-md-12">

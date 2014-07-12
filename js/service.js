@@ -10,16 +10,24 @@ angular.module('LibraryService', [])
   	{ id: 6, age: chance.age(), rating: chance.integer({ min: 0, max: 5 }), city: chance.city(), state: chance.state(), name: chance.name(), pickupSpot: chance.address(), pickupSpotLat: chance.latitude(), pickupSpotLong: chance.longitude() }
   ];
 
-console.log(users);
   var items = [
+    { image: "bike.jpg", title: "Fixie Bike", user: users[2] },
     { image: "books.jpg", title: "A bunch of books", user: users[0] },
     { image: "coat.jpg", title: "Nice coat", user: users[1] },
-    { image: "bike.jpg", title: "Fixie Bike", user: users[2] },
+    { image: "bike1.jpg", title: "Fixie Bike", user: users[4] },
     { image: "dvd.jpg", title: "DVD", user: users[3] },
+    { image: "bike2.jpg", title: "Pickup Truck", user: users[3] },
     { image: "crockpot.jpg", title: "Crockpot", user: users[4] },
+    { image: "bike3.jpg", title: "Pickup Truck", user: users[2] },
     { image: "tent.jpg", title: "Tent", user: users[5] },
     { image: "coffeemachine.jpg", title: "Coffee Machine", user: users[5] },
+    { image: "bike4.jpg", title: "Pickup Truck", user: users[2] },
     { image: "blender.jpg", title: "Blender", user: users[5] },
+    { image: "colander.jpg", title: "Colander", user: users[3] },
+    { image: "backpack.jpg", title: "Backpack", user: users[3] },
+    { image: "bike5.jpg", title: "Pickup Truck", user: users[5] },
+    { image: "truck.jpg", title: "Pickup Truck", user: users[2] },
+    { image: "bike6.jpg", title: "Pickup Truck", user: users[2] },
   ];
 
   var library = [
@@ -30,6 +38,10 @@ console.log(users);
 
   var addToCart = function(item) {
   	cart.push(item);
+  };
+
+  var addItem = function(title) {
+  	library.push({ image: "dvd.jpg", title: title });
   };
 
   var filterItems = function(query) {
@@ -47,6 +59,7 @@ console.log(users);
 
   return {
   	addToCart: addToCart,
+  	addItem: addItem,
   	getCart: function() { return cart },
   	getLibrary: function() { return library },
   	getUser: getUser,
