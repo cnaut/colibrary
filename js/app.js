@@ -1,5 +1,6 @@
 angular.module('sharinglibrary', [
   'ui.router',
+  'LibraryService',
   'controllers',
 ])
 .config(function($stateProvider, $urlRouterProvider) {

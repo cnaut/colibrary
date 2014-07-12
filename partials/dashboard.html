@@ -1,15 +1,5 @@
 <div class="row image-board">
-	<div class="col-md-3">
-		<img ng-click="checkout()" src="img/products/books.jpg" />
-	</div>
-	<div class="col-md-3">
-		<img src="img/products/coat.jpg" />
-	</div>
-
-	<div class="col-md-3">
-		<img src="img/products/bike.jpg" />
-	</div>
-	<div class="col-md-3">
-		<img src="img/products/dvd.jpg" />
+	<div class="col-md-3" ng-repeat="item in items">
+		<img ng-click="checkout(item)" src="img/products/{{ item.image }}" />
 	</div>
 </div>
