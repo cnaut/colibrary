@@ -331,3 +331,17 @@ table.dataTable thead .sorting:after {
 .image-board {
   margin-top: 10px;
 }
+
+.item-box { 
+  position: relative;
+}
+
+.item-title {
+  position: absolute; 
+  text-align: center;
+  width: 150px;
+  top: 130px;
+  color: black;
+  background-color: gray;
+  opacity: 0.8;
+}
