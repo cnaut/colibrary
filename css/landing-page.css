@@ -151,3 +151,8 @@ footer {
 p.copyright {
 	margin: 15px 0 0;
 }
+
+.facebook-login {
+	height: 50%;
+	width: 50%;
+}
