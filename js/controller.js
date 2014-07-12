@@ -19,7 +19,19 @@ angular.module('controllers', [])
   };
 })
 
+
+.controller('LibraryCtrl', function($scope, $location, LibraryService) {
+  $scope.library = LibraryService.getLibrary();
+})
+
+.controller('ProfileCtrl', function($scope, $stateParams, LibraryService) {
+  $scope.user = LibraryService.getUser($stateParams.userId);
+  $scope.items = LibraryService.getItems($stateParams.userId);
+})
+
+
 .controller('CheckoutCtrl', function($scope, $location, LibraryService) {
+  $scope.requested = false;
   $scope.cart = LibraryService.getCart();
   $scope.opened = true;
   if($scope.cart.length === 0 ) {
@@ -43,4 +55,8 @@ angular.module('controllers', [])
 
     $scope.opened = true;
   };
+
+  $scope.request = function() {
+    $scope.requested = true;
+  }
 });

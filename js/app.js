@@ -15,6 +15,16 @@ angular.module('sharinglibrary', [
       templateUrl: "partials/dashboard.html",
       controller: "DashboardCtrl"
     })
+    .state('library', {
+      url: "/library",
+      templateUrl: "partials/library.html",
+      controller: "LibraryCtrl"
+    })
+    .state('profile', {
+      url: "/profile/:userId",
+      templateUrl: "partials/profile.html",
+      controller: "ProfileCtrl"
+    })
     .state('checkout', {
         url: "/checkout",
         templateUrl: "partials/checkout.html",

@@ -358,3 +358,16 @@ table.dataTable thead .sorting:after {
 .top-buffer-large { 
     margin-top: 30px;
 }
+
+.light-box {
+    position: absolute;
+    padding-top: 75px;
+    top: 100px;
+    left: 40%;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    background-color: gray;
+    opacity: 0.8;
+    color: white;
+}
