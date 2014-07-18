@@ -1,1 +1,1 @@
-web: cd colibrary && rails server
+web: rails server
