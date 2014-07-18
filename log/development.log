@@ -18486,3 +18486,918 @@ Started GET "/assets/items/bike.jpg" for 98.207.195.244 at 2014-07-18 07:05:32 +
 
 
 Started GET "/assets/items/bike.jpg" for 98.207.195.244 at 2014-07-18 07:05:33 +0000
+
+
+Started GET "/dashboard" for 98.207.195.244 at 2014-07-18 07:20:57 +0000
+Processing by StaticPagesController#dashboard as HTML
+  Rendered static_pages/dashboard.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 1008ms (Views: 980.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+
+Started GET "/javascripts/angular/angular.min.js.map.js" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/angular/angular.min.js.map.js"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.6ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.1ms)
+
+
+Started GET "/assets/css/font-awesome.css" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/css/font-awesome.css"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+
+Started GET "/assets/font-awesome/css/font-awesome.min.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+
+Started GET "/assets/font-awesome/css/font-awesome.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+
+Started GET "/assets/plugins/dataTables/dataTables.bootstrap.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+
+Started GET "/assets/landing-page.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+
+Started GET "/assets/plugins/social-buttons/social-buttons.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+
+Started GET "/assets/plugins/morris/morris-0.4.3.min.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:02 +0000
+
+
+Started GET "/assets/plugins/timeline/timeline.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/sb-admin.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/static_pages.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/bootstrap.min.css" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/sb-admin.css" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/angular/angular.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:03 +0000
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/Gruntfile.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/example.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/geojson.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/hugedata.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-154-marker-fit.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-157-ng-click.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:04 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-322.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-354-window-windows-rerender-content.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-371-polygon-ng-repeat.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-382-window-windows-ng-show.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-393-cluster-events-mapped.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-432-markers-fit-clustering.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-482-markers-animation-clustering.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-482-markers-animation.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-484-markers-self.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-495-polyline-fit.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:05 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-504-markers-flash.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-507-windows-show-w-marker-broken.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-534-markers-child-destroy.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-74-markers-events.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/shapes-lines.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/templates/info.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/two-maps.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/mocks/heat-layer.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/jasmineSettings.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/lib/infobox.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/lib/markerclusterer.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:06 +0000
+
+
+Started GET "/assets/angular-google-maps/lib/markerwithlabel.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/bootstrap.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/markers.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/child/marker-child-model.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/child/window-child-model.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/i-marker-parent.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/layer-parent-model.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/marker-parent-model.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/markers-parent-model.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/markers-parent.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/windows-parent.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:07 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/_async.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/base-object.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/gmap-util.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/model-key.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/prop-map.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/window.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/helpers/google-api-mock.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/helpers/google-map-spec-controller.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/usage/underscore.difference.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/usage/underscore.indexOfObject.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:08 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/usage/underscore.intersection.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/usage/underscore.isEqual.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/i-label.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/i-marker.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/i-polyline.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/i-window.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/managers/clusterer-marker-manager.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/managers/marker-manager.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/map.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/marker.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/markers.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:09 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/child/label-child-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/child/marker-child-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/child/polyline-child-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/child/window-child-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/i-marker-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/i-window-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/layer-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/marker-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/markers-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/polylines-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/windows-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:10 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/polyline.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/polylines.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/_async.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/base-object.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/child-events.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/events-helper.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/fit-helper.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/gmap-util.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/linked.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/logger.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:11 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/model-key.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/models-watcher.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/prop-map.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/window.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/windows.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/circle.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/controllers/polyline-display.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/label.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/layer.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/map.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/marker.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:12 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/markers.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/polygon.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/polyline.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/polylines.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/rectangle.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/window.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/windows.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/extensions/google.maps.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/extensions/lodash.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/module.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:13 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/utils/LatLngArraySync.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/utils/MapEvents.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/src/common.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/src/compat.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/src/resolve.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/src/state.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/src/stateDirectives.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/src/stateFilters.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/src/templateFactory.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:14 +0000
+
+
+Started GET "/assets/angular-ui-router/src/urlMatcherFactory.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/angular-ui-router/src/urlRouter.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/angular-ui-router/src/view.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/angular-ui-router/src/viewDirective.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/angular-ui-router/src/viewScroll.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/angular/angular.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/app.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/bootstrap.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/chance/Gruntfile.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/chance/chance.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:15 +0000
+
+
+Started GET "/assets/chance/test/base.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.address.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.basic.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.finance.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.helpers.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.misc.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.person.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.text.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.time.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/chance/test/test.web.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/controller.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:16 +0000
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/lodash/dist/lodash.compat.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/lodash/dist/lodash.compat.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/lodash/dist/lodash.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/lodash/dist/lodash.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/lodash/dist/lodash.underscore.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/lodash/dist/lodash.underscore.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/plugins/dataTables/dataTables.bootstrap.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/plugins/dataTables/jquery.dataTables.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/plugins/flot/excanvas.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:17 +0000
+
+
+Started GET "/assets/plugins/flot/jquery.flot.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/plugins/flot/jquery.flot.pie.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/plugins/flot/jquery.flot.resize.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/plugins/flot/jquery.flot.tooltip.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/plugins/metisMenu/jquery.metisMenu.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/plugins/morris/morris.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/sb-admin.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/service.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/plugins/morris/raphael-2.1.0.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/static_pages.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:18 +0000
+
+
+Started GET "/assets/bootstrap.min.js" for 98.207.195.244 at 2014-07-18 07:21:19 +0000
+
+
+Started GET "/assets/jquery-1.10.2.js" for 98.207.195.244 at 2014-07-18 07:21:19 +0000
+
+
+Started GET "/assets/plugins/metisMenu/jquery.metisMenu.js" for 98.207.195.244 at 2014-07-18 07:21:19 +0000
+
+
+Started GET "/assets/angular/angular.min.js" for 98.207.195.244 at 2014-07-18 07:21:19 +0000
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.min.js" for 98.207.195.244 at 2014-07-18 07:21:19 +0000
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap-tpls.min.js" for 98.207.195.244 at 2014-07-18 07:21:19 +0000
+
+
+Started GET "/assets/chance/chance.js" for 98.207.195.244 at 2014-07-18 07:21:19 +0000
+
+
+Started GET "/assets/lodash/dist/lodash.min.js" for 98.207.195.244 at 2014-07-18 07:21:20 +0000
+
+
+Started GET "/assets/angular-google-maps/dist/angular-google-maps.min.js" for 98.207.195.244 at 2014-07-18 07:21:20 +0000
+
+
+Started GET "/assets/app.js" for 98.207.195.244 at 2014-07-18 07:21:20 +0000
+
+
+Started GET "/assets/controller.js" for 98.207.195.244 at 2014-07-18 07:21:20 +0000
+
+
+Started GET "/assets/service.js" for 98.207.195.244 at 2014-07-18 07:21:20 +0000
+
+
+Started GET "/assets/sb-admin.js" for 98.207.195.244 at 2014-07-18 07:21:20 +0000
+
+
+Started GET "/assets/angular-bootstrap/ui-bootstrap.min.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:20 +0000
+
+
+Started GET "/assets/angular-google-maps/Gruntfile.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:20 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/example.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:21 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-154-marker-fit.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:21 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-157-ng-click.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:21 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-354-window-windows-rerender-content.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:21 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-382-window-windows-ng-show.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:22 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-393-cluster-events-mapped.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:22 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-482-markers-animation-clustering.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:22 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-484-markers-self.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:23 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-504-markers-flash.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:23 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-507-windows-show-w-marker-broken.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:23 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/issue-74-markers-events.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:23 +0000
+
+
+Started GET "/assets/angular-google-maps/example/assets/scripts/controllers/templates/info.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:24 +0000
+
+
+Started GET "/assets/angular-google-maps/jasmineSettings.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:24 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/bootstrap.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:24 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/markers.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:24 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/child/marker-child-model.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:25 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/child/window-child-model.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:25 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/i-marker-parent.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:25 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/layer-parent-model.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:25 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/models/parent/windows-parent.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:26 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/_async.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:26 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/base-object.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:26 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/model-key.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:27 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/utils/prop-map.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:27 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/directives/api/window.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:27 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/helpers/google-map-spec-controller.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:27 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/usage/underscore.indexOfObject.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:28 +0000
+
+
+Started GET "/assets/angular-google-maps/spec/coffee/usage/underscore.intersection.spec.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:28 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/i-label.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:28 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/i-polyline.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:29 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/i-window.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:29 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/marker.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:29 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/markers.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:29 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/child/label-child-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:30 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/i-marker-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:30 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/i-window-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:30 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/models/parent/layer-parent-model.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:30 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/polyline.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:31 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/polylines.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:31 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/_async.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:31 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/base-object.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:32 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/child-events.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:32 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/events-helper.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:32 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/fit-helper.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:32 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/linked.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:33 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/logger.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:33 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/model-key.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:33 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/models-watcher.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:33 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/utils/prop-map.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:34 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/api/windows.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:34 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/controllers/polyline-display.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:34 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/label.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:34 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/map.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:35 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/marker.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:35 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/polyline.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:35 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/polylines.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:36 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/window.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:36 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/directives/windows.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:36 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/extensions/google.maps.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:36 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/module.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:37 +0000
+
+
+Started GET "/assets/angular-google-maps/src/coffee/utils/MapEvents.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:37 +0000
+
+
+Started GET "/assets/angular-ui-router/src/common.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:37 +0000
+
+
+Started GET "/assets/angular-ui-router/src/stateDirectives.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:37 +0000
+
+
+Started GET "/assets/angular-ui-router/src/stateFilters.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:38 +0000
+
+
+Started GET "/assets/angular-ui-router/src/view.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:38 +0000
+
+
+Started GET "/assets/angular-ui-router/src/viewDirective.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:38 +0000
+
+
+Started GET "/assets/app.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:38 +0000
+
+
+Started GET "/assets/chance/Gruntfile.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:39 +0000
+
+
+Started GET "/assets/chance/test/base.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:39 +0000
+
+
+Started GET "/assets/chance/test/test.address.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:39 +0000
+
+
+Started GET "/assets/chance/test/test.finance.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:40 +0000
+
+
+Started GET "/assets/chance/test/test.person.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:40 +0000
+
+
+Started GET "/assets/chance/test/test.time.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:40 +0000
+
+
+Started GET "/assets/controller.js?body=1" for 98.207.195.244 at 2014-07-18 07:21:40 +0000
+
+
+Started GET "/assets/dashboard.html" for 98.207.195.244 at 2014-07-18 07:21:41 +0000
+
+
+Started GET "/assets/items/%7B%7B%20item.image%20%7D%7D" for 98.207.195.244 at 2014-07-18 07:21:42 +0000
+
+ActionController::RoutingError (No route matches [GET] "/assets/items/%7B%7B%20item.image%20%7D%7D"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/azureuser/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/azureuser/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.2ms)
+
+
+Started GET "/assets/items/bike.jpg" for 98.207.195.244 at 2014-07-18 07:21:42 +0000
