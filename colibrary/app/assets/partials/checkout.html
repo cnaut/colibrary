@@ -1,0 +1,74 @@
+<h1>Checkout</h1>
+<div ng-repeat="item in cart">
+  <div class="row">
+  	<div class="col-md-2">
+	  <img ng-click="checkout(item)" src="img/items/{{ item.image }}" />
+  	</div>
+	<div class="col-md-6">
+	    <p><b>Item:</b> {{ item.title }}</p> 
+		<p><b>Owner:</b> <a href="#/profile/{{ item.user.id }}">{{ item.user.name }}</a></p>
+		<p><b>Pickup Location:</b> {{ item.user.pickupSpot }}</p>
+		<p>Tip Amount:
+		<span class="input-group">
+		  <span class="input-group-addon">$</span>
+		  <input type="number" class="form-control" placeholder="1">
+		</span>
+		</p>
+		<p>Donation Amount:
+		<span class="input-group">
+		  <span class="input-group-addon">$</span>
+		  <input type="number" class="form-control" placeholder="1">
+		</span>
+		</p>
+	</div>
+  </div>
+</div>
+
+<div class="row top-buffer">
+	<div class="col-md-3">
+		<google-map center="map.center" zoom="map.zoom"></google-map>
+	</div>
+	<div class="col-md-offset-1 col-md-8">
+		<div class="row">
+			<div class="row">
+				<label for="name" class="col-sm-3 control-label">From Pickup Date Range</label>
+			</div>
+			<div class="col-md-6 top-buffer-large">
+			  <p class="input-group">
+			    <input type="text" class="form-control" datepicker-popup ng-model="$parent.eventDate" is-open="$parent.opened" ng-required="true" close-text="Close" />
+			    <span class="input-group-btn">
+			      <button type="button" class="btn btn-default" ng-click="openDP($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+			    </span>
+			  </p>
+			</div>
+			<div class="col-md-6">
+		    	<timepicker ng-model="$parent.eventTime"></timepicker>
+			</div>
+		</div>
+		<div class="row">
+			<div class="row">
+				<label for="name" class="col-sm-3 control-label">To Pickup Date Range</label>
+			</div>
+			<div class="col-md-6 top-buffer-large">
+			  <p class="input-group">
+			    <input type="text" class="form-control" datepicker-popup ng-model="$parent.eventDate" is-open="$parent.opened" ng-required="true" close-text="Close" />
+			    <span class="input-group-btn">
+			      <button type="button" class="btn btn-default" ng-click="openDP($event)"><i class="glyphicon glyphicon-calendar"></i></button>
+			    </span>
+			  </p>
+			</div>
+			<div class="col-md-6">
+		    	<timepicker ng-model="$parent.eventTime"></timepicker>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="text-center top-buffer-large">
+	<btn class="btn btn-primary" ng-click="request()">Request</btn>
+</div>
+
+<div class="light-box" ng-show="requested">
+	<h2>Requested!</h2>
+	<p>Loaner has been notified</p>
+</div>

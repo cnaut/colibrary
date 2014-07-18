@@ -1,0 +1,26 @@
+<div class="row">
+	<div class="col-md-12">
+		<h2>{{ user.name }} <small><rating ng-model="user.rating" max="5" state-on="'glyphicon-star'" state-off="'glyphicon-star-empty'"></rating></small></h2>			
+		<div class="row">
+			<ul class="socialicons color">
+				<li><a href="" class="facebook" target="_blank">facebook</a></li>
+				<li><a href="" class="twitter" target="_blank">twitter</a></li>
+			</ul>
+		</div>
+		<div><b>Age:</b> {{ user.age}}</div>
+		<div><b>Location:</b> {{ user.city }}, {{ user.state }}</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Librarian's Items</h3>
+				<div class="row image-board">
+					<div class="col-md-2 col-sm-3 item-box" ng-repeat="item in items">
+						<img ng-click="checkout(item)" src="img/items/{{ item.image }}" />
+						<div class="item-title">{{ item.title }}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
