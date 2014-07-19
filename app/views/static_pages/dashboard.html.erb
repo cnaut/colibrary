@@ -200,20 +200,22 @@
 
 
     <!-- Core Scripts - Include with every page -->
-    <script src="assets/jquery-1.10.2.js"></script>
-    <script src="assets/bootstrap.min.js"></script>
-    <script src="assets/plugins/metisMenu/jquery.metisMenu.js"></script>
-    <script src="assets/angular/angular.min.js"></script>
-    <script src="assets/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="assets/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-    <script src="assets/chance/chance.js"></script>
-    <script src="assets/lodash/dist/lodash.min.js"></script>
+
+    <%= javascript_include_tag "jquery_1.10.2.js" %>
+    <%= javascript_include_tag "bootstrap.min.js" %>
+    <%= javascript_include_tag "plugins/metisMenu/jquery.metisMenu.js" %>
+    <%= javascript_include_tag "angular/angular.min.js" %>
+    <%= javascript_include_tag "angular-ui-router/release/angular-ui-router.min.js" %>
+    <%= javascript_include_tag "angular-bootstrap/ui-bootstrap-tpls.min.js" %>
+    <%= javascript_include_tag "chance/chance.js" %>
+    <%= javascript_include_tag "lodash/dist/lodash.min.js" %>
+    <%= javascript_include_tag "plugins/metisMenu/jquery.metisMenu.js" %>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLXHKhGbXJQVB3Y6Mwh9hvIQLQ5M1fT2E">
+    <%= javascript_include_tag "angular-google-maps/dist/angular-google-maps.min.js" %>
+    <%= javascript_include_tag "app.js" %>
+    <%= javascript_include_tag "controller.js" %>
+    <%= javascript_include_tag "service.js" %>
     </script>
-    <script src="assets/angular-google-maps/dist/angular-google-maps.min.js"></script>
-    <script src="assets/app.js"></script>
-    <script src="assets/controller.js"></script>
-    <script src="assets/service.js"></script>
 
     <!-- Page-Level Plugin Scripts - Blank -->
 
