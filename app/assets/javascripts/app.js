@@ -12,22 +12,22 @@ angular.module('sharinglibrary', [
   $stateProvider
     .state('dashboard', {
       url: "/",
-      templateUrl: "assets/dashboard.html",
+      templateUrl: "<%= asset_path('partials/dashboard.html') %>",
       controller: "DashboardCtrl"
     })
     .state('library', {
       url: "/library",
-      templateUrl: "assets/library.html",
+      templateUrl: "<%= asset_path('partials/library.html') %>",
       controller: "LibraryCtrl"
     })
     .state('profile', {
       url: "/profile/:userId",
-      templateUrl: "assets/profile.html",
+      templateUrl: "<%= asset_path('partials/profile.html') %>",
       controller: "ProfileCtrl"
     })
     .state('checkout', {
         url: "/checkout",
-        templateUrl: "assets/checkout.html",
+        templateUrl: "<%= asset_path('partials/checkout.html') %>",
         controller: "CheckoutCtrl"
     });
 });
