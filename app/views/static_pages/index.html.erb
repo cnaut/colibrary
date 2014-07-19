@@ -17,7 +17,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
     <!-- Add custom CSS here -->
-    <link href="assets/landing-page.css" rel="stylesheet">
+    <link href="assets/landing-page.css.erb" rel="stylesheet">
     <%= stylesheet_link_tag "landing-page", media: "all", "data-turbolinks-track" => true %>
 </head>
 
@@ -60,7 +60,7 @@
 	                        <h1>Colibrary</h1>
 	                        <hr class="intro-divider">
 	                        <h3>Contribute to the Sharing Library</h3>
-	                        <a href="dashboard"><img class="facebook-login" src="assets/login_with_facebook.png" /></a>
+	                        <a href="dashboard"><img class="facebook-login" src="<%= asset_path('login_with_facebook.png') %>" /></a>
 	                    </div>
 
 	                </div>
